@@ -14,4 +14,7 @@ class Student {
 }
 //ekhane class instantiate kore instance create kora hoilo ei instance ekti object
 const rafi = new Student('Rafi', 'rafi@gmail.com', 14);
-console.log(rafi);
+console.log(rafi); 
+
+
+
