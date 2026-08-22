@@ -34,10 +34,11 @@ class ChaShop {
     constructor(shop: string) {
         this.shopName = shop;
     }
-
+    //method
     buy(itemName: string, price: number) {
         this.soldItem.push({itemName, price})
     }
+    //method
     totalSold() {
         const total = this.soldItem.reduce((acc: any, item: any) => acc + item.price, 0);
         return total;
